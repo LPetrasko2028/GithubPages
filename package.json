@@ -4,11 +4,13 @@
   "description": "A place to hold my portfolio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild client/app.jsx --bundle --minify --sourcemap --loader:.js=jsx --outfile=index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esbuild": "^0.19.11"
+    "esbuild": "^0.19.11",
+    "react": "^18.2.0"
   }
 }
