@@ -5,12 +5,13 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild client/app.jsx --bundle --sourcemap --outfile=index.js"
+    "build": "esbuild --watch --bundle --sourcemap --target=es6 --outfile=index.js client/app.jsx"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "esbuild": "^0.19.11",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "vite": "^5.0.11"
   }
 }
