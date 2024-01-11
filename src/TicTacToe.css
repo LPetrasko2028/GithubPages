@@ -37,7 +37,7 @@
   background-position: center;
   background-attachment: fixed;
   color: #af0b10;
-  text-shadow: #ffffff 3px 3px 5px, #ffffff -3px -3px 5px, #ffffff 3px -3px 5px, #ffffff -3px 3px 5px;
+  text-shadow: #ffffff 1px 1px 2px, #ffffff -1px -1px 2px, #ffffff 1px -1px 2px, #ffffff -1px 1px 2px;
 }
 .playAgainButton {
   width: 200px;
